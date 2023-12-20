@@ -16,8 +16,8 @@ export class UploadService {
       }
       // Initialize AWS S3
       const s3 = new S3({
-        accessKeyId: 'AKIAUJWJTL5DPHJBV7EM',
-        secretAccessKey: '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',
+        accessKeyId: '',
+        secretAccessKey: '',
       });
       const bucketName = 'zohobhumio';
       const objectKey = `originalFiles/${file.originalname}`;
